@@ -1,0 +1,57 @@
+/* Applique une mise en forme similaire à la page de connexion */
+body{
+	background: black;
+}
+.logo {
+  height: 100px; /* ajustez la hauteur du logo selon votre besoin */
+  margin: 0 auto; /* centre le logo horizontalement */
+  display: block; /* pour que les marges ci-dessus fonctionnent */
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+form {
+  position: absolute ;
+  top: 130px;
+  left: 450px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ddd;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 20px;
+  background-color: #008146;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}

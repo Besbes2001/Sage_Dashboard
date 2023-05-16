@@ -1,0 +1,104 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+/*-- Body --*/
+body {
+	background: #E2EAE0;
+}
+/*-- Image Logo --*/
+.logo {
+  height: 50px;
+  border-right: 2px solid green;
+  padding-right: 10px;
+}
+
+.logo_1 {
+	height: 75px;
+	position: absolute;
+	top: 15px;
+	margin-left: 10px;
+}
+/*-- Icône User --*/
+.user-image {
+  position: relative;
+  display: inline-block;
+}
+
+.user-image:last-of-type {
+  right: 0;
+  margin-left: 50px;
+}
+
+.user-menu-container {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+
+
+.user-options {
+  display: none;
+  position: relative;
+  font-size: 5px;
+  top: 1px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+ 
+}
+
+button {
+  padding: 10px ;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.user-image:hover .user-options {
+  display: block;
+  position: absolute;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+/* Navigation */
+.navbar {
+  display: block;
+  position: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 10px;
+  padding: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.navbar ul li a:hover {
+  background-color: #444;
+}
